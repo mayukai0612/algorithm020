@@ -37,13 +37,13 @@ debug->修改 反复直到通过
 ### Queue 代码分析：
 继承了Collection接口。
 
-主要接口方法：
-boolean add(E e); //超出容量限制，会报异常
-boolean offer(E e); //同上，但不会报异常
-E remove(); //删除头节点，无此节点报异常
-E poll(); //同上，但不会报异常
-E element();//获取头节点，队列为空会报异常
-E peek();//获取头节点，队列为空返回null
+####主要接口方法：
+boolean add(E e);  超出容量限制，会报异常  
+boolean offer(E e);  同上，但不会报异常  
+E remove();  删除头节点，无此节点报异常  
+E poll();  同上，但不会报异常  
+E element(); 获取头节点，队列为空会报异常  
+E peek();  获取头节点，队列为空返回null
 
 ---
 
